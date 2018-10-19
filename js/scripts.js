@@ -13,11 +13,35 @@ $(document).ready(function() {
    var css = 0;
    var csharp = 0;
 
+   if (endInput === "front") {
+     css += 1;
+   } else if (endInput === "back") {
+     php += 1; java += 1; csharp += 1; ruby += 1;
+   }
 
+   if (grammarInput === "letters") {
+     css += 1; php += 1; csharp += 1;
+   } else if (grammarInput === "words") {
+     java += 1; ruby += 1;
+   }
 
+   if (colorInput === "rainbow") {
+     css += 1; ruby += 1;
+   } else if (colorInput === "black-and-white") {
+     java += 1; php += 1; csharp += 1;
+   }
 
+   if (phoneInput === "android") {
+     java += 1; css += 1; csharp += 1;
+   } else if (phoneInput === "iphone") {
+     ruby += 1; php += 1;
+   }
 
-
+   if (beverageInput === "coffee") {
+     java += 1; php += 1;
+   } else if (beverageInput === "tea"){
+     php += 1; css += 1; ruby += 1;
+   }
 
  });
 });
