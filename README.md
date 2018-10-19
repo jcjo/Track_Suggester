@@ -8,7 +8,7 @@
 
 _{This is a website where you can fill out a survey and, based on your answers, it will suggest your top 3 pathway choices for Epicodus. }_
 
-_{link to github: https://github.com/jcjo/Track_Suggester}
+{link to github: https://github.com/jcjo/Track_Suggester }
 
 ## Setup/Installation Requirements
 
