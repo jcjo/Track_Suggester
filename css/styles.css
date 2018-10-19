@@ -50,3 +50,11 @@ label {
 .well {
   text-align: center;
 }
+
+.btn {
+  margin: 10px;
+  background-color: #8fbed7;
+  font-family: 'Faster One', cursive;
+  color: ;
+  font-size: 18px;
+}
