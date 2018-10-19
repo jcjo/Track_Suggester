@@ -46,29 +46,29 @@ $(document).ready(function() {
    $(".result-block").show();
    if (java+csharp+css > ruby+php && java+csharp+css > 7) {
      $(".result").hide();
-     $("#java-path").show();
-     $("#css-path").show();
-     $("#csharp-path").show();
+     $("#java-path").fadeIn();
+     $("#css-path").fadeIn();
+     $("#csharp-path").fadeIn();
    } else if (csharp+css+ruby > php+java && csharp+css+ruby > 7) {
      $(".result").hide();
-     $("#ruby-path").show();
-     $("#css-path").show();
-     $("#csharp-path").show();
+     $("#ruby-path").fadeIn();
+     $("#css-path").fadeIn();
+     $("#csharp-path").fadeIn();
         } else if (css+ruby+php > java+csharp && css+ruby+php > 7) {
      $(".result").hide();
-     $("#ruby-path").show();
-     $("#php-path").show();
-     $("#css-path").show();
+     $("#ruby-path").fadeIn();
+     $("#php-path").fadeIn();
+     $("#css-path").fadeIn();
    } else if (ruby+php+java > csharp+css && ruby+php+java > 6) {
      $(".result").hide();
-     $("#ruby-path").show();
-     $("#php-path").show();
-     $("#java-path").show();
+     $("#ruby-path").fadeIn();
+     $("#php-path").fadeIn();
+     $("#java-path").fadeIn();
    } else if (php+java+csharp > css+ruby && php+java+csharp > 6) {
      $(".result").hide();
-     $("#php-path").show();
-     $("#java-path").show();
-     $("#csharp-path").show();
+     $("#php-path").fadeIn();
+     $("#java-path").fadeIn();
+     $("#csharp-path").fadeIn();
    }
   });
 });
