@@ -43,5 +43,16 @@ $(document).ready(function() {
      php += 1; css += 1; ruby += 1;
    }
 
+   //$(".result-area").show();
+   if (ruby >= 5 || php >= 5 || java >= 5 || css >= 5 || csharp >= 5)  {
+     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show(); //$(".result").hide();
+   }
+   if (ruby >= 4 || php >= 4 || java >= 4 || css >= 4 || csharp >= 4)  {
+     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show() //$(".result").hide();
+   }
+   if (ruby >= 3 || php >= 3 || java >= 3 || css >= 3 || csharp >= 3)  {
+     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show() //$(".result").hide();
+   }
+
  });
 });
