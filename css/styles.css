@@ -1,6 +1,9 @@
 .jumbotron {
   text-align: center;
-  background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg)
+  background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Faster One', cursive;
 }
 
 .result {
