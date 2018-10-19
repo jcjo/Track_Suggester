@@ -54,7 +54,7 @@ $(document).ready(function() {
      $("#ruby-path").fadeIn();
      $("#css-path").fadeIn();
      $("#csharp-path").fadeIn();
-        } else if (css+ruby+php > java+csharp && css+ruby+php > 7) {
+   } else if (css+ruby+php > java+csharp && css+ruby+php > 7) {
      $(".result").hide();
      $("#ruby-path").fadeIn();
      $("#php-path").fadeIn();

@@ -15,7 +15,7 @@ link to github: https://github.com/jcjo/Track_Suggester
 * _Download or clone from Github_
 * _Navigate to Track_Suggester directory_
 * _Open index.html_
-* _Complete survey and see your top three choices.
+* _Complete survey and see your top three choices_
 
 
 ## Known Bugs
