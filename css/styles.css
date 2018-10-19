@@ -42,19 +42,19 @@ p {
 }
 
 #ruby-path {
-  color: red;
+  color: #ED553B;
 }
 #php-path {
-  color: green;
+  color: #F2B134;
 }
 #java-path {
-  color: blue;
+  color: #4FB99F;
 }
 #css-path {
-  color: brown;
+  color: #50007F;
 }
 #csharp-path {
-  color: orange;
+  color: #3A6900;
 }
 
 .well {
@@ -63,7 +63,7 @@ p {
 }
 
 .btn {
-  margin: 10px;
+  margin: 12px;
   background-color: #8fbed7;
   font-family: 'Faster One', cursive;
   color: ;
