@@ -3,18 +3,26 @@
   background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg);
   background-size: cover;
   color: white;
+  font-family: 'Farsan', cursive;
 }
 
 .jumbotron h1 {
   font-family: 'Faster One', cursive;
+  color: white;
 }
 
 h2 {
   background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg);
   background-position: left;
   color: white;
+  font-family: 'Farsan', cursive;
 }
 
+label {
+  font-family: 'Farsan', cursive;
+  font-size: 20px;
+  color: #8fbed7;
+}
 .result {
   display: none;
 }
