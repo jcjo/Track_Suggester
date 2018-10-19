@@ -10,7 +10,9 @@
   font-family: 'Faster One', cursive;
   color: white;
 }
+form {
 
+}
 h3 {
   font-family: 'Faster One', cursive;
 }
@@ -20,7 +22,6 @@ h2 {
   background-position: left;
   color: white;
   font-family: 'Farsan', cursive;
-  width: 500px;
 }
 
 label {
@@ -57,7 +58,8 @@ p {
 }
 
 .well {
-  text-align: center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Weather-fog.svg/2000px-Weather-fog.svg.png);
+  background-position: bottom;
 }
 
 .btn {
