@@ -1,5 +1,6 @@
 .jumbotron {
   text-align: center;
+  background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg)
 }
 
 .result {
@@ -24,4 +25,8 @@
 }
 #csharp-path {
   color: orange;
+}
+
+.well {
+  text-align: center;
 }
