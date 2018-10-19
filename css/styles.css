@@ -11,6 +11,10 @@
   color: white;
 }
 
+h3 {
+  font-family: 'Faster One', cursive;
+}
+
 h2 {
   background-image: url(http://www.rhtlawtaylorwessing.com/wp-content/uploads/2017/11/Page-Header_Tech-Comms.jpg);
   background-position: left;
@@ -23,6 +27,10 @@ label {
   font-family: 'Farsan', cursive;
   font-size: 20px;
   color: #8fbed7;
+}
+p {
+  font-family: 'Farsan', cursive;
+  font-size: 18px;
 }
 .result {
   display: none;
