@@ -16,6 +16,7 @@ h2 {
   background-position: left;
   color: white;
   font-family: 'Farsan', cursive;
+  display: inline-block;
 }
 
 label {
