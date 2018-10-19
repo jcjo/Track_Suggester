@@ -11,10 +11,79 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Bootcamp Track Suggester</h2>
+        <h1>Bootcamp Track Suggester</h1>
         <p>Fill out the survey below to see which path is right for you!</p>
       </div>
       <form id="survey">
+        <div class="end">
+          <h2>Do you prefer Front-End or Back-End?</h2>
+          <label>
+            <input type="radio" name="end-type" value="front" checked>
+            Front-End
+          </label>
+        </div>
+        <div class="end">
+          <label>
+            <input type="radio" name="end-type" value="back">
+            Back-End
+          </label>
+        </div>
+        <!--  - - - - - - - - - - - - - - - - - - - - - - letter/word stuff-->
+        <div class="grammar">
+          <h2>Do you prefer letters or words?</h2>
+          <label>
+            <input type="radio" name="grammar-type" value="letters" checked>
+            Letters
+          </label>
+        </div>
+        <div class="grammar">
+          <label>
+            <input type="radio" name="grammar-type" value="words">
+            Words
+          </label>
+        </div>
+        <!--  - - - - - - - - - - - - - - - - - - - - - - color stuff-->
+        <div class="color">
+          <h2>Do you prefer rainbow & colors or black-and-white?</h2>
+          <label>
+            <input type="radio" name="color-type" value="rainbow" checked>
+            Rainbow & colors
+          </label>
+        </div>
+        <div class="color">
+          <label>
+            <input type="radio" name="color-type" value="black-and-white">
+            Black-and-white
+          </label>
+        </div>
+          <!--  - - - - - - - - - - - - - - - - - - - - - - phone stuff-->
+        <div class="phone">
+          <h2>Do you prefer Androids or iPhones?</h2>
+          <label>
+            <input type="radio" name="phone-type" value="android" checked>
+            Android
+          </label>
+        </div>
+        <div class="phone">
+          <label>
+            <input type="radio" name="phone-type" value="iphone">
+            iPhones
+          </label>
+        </div>
+        <!--  - - - - - - - - - - - - - - - - - - - - - - beverage stuff-->
+        <div class="beverage">
+          <h2>Do you prefer coffee or tea?</h2>
+          <label>
+            <input type="radio" name="beverage-type" value="coffee" checked>
+            Coffee
+          </label>
+        </div>
+        <div class="beverage">
+          <label>
+            <input type="radio" name="beverage-type" value="tea">
+            Tea
+          </label>
+        </div>
 
         <button type="submit" class="btn">Submit</button>
       </form>
