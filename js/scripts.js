@@ -40,19 +40,25 @@ $(document).ready(function() {
    if (beverageInput === "coffee") {
      java += 1; php += 1;
    } else if (beverageInput === "tea"){
-     php += 1; css += 1; ruby += 1;
+     csharp += 1; css += 1; ruby += 1;
    }
 
-   //$(".result-area").show();
-   if (ruby >= 5 || php >= 5 || java >= 5 || css >= 5 || csharp >= 5)  {
-     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show(); //$(".result").hide();
+   $(".result-area").hide();
+   if (ruby >= 3)  {
+     $("#ruby-path").show();
    }
-   if (ruby >= 4 || php >= 4 || java >= 4 || css >= 4 || csharp >= 4)  {
-     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show() //$(".result").hide();
+   if (php >= 3) {
+     $("#php-path").show();
+    }
+   if (java >= 3) {
+     $("#java-path").show();
+    }
+   if (css >= 2) {
+     $("#css-path").show();
    }
-   if (ruby >= 3 || php >= 3 || java >= 3 || css >= 3 || csharp >= 3)  {
-     $("#ruby-path").show(); $("#php-path").show(); $("#java-path").show(); $("#css-path").show(); $("#csharp-path").show() //$(".result").hide();
+   if (csharp >= 3) {
+     $("#csharp-path").show();
    }
 
- });
+  });
 });
