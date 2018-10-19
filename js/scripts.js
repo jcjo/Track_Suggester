@@ -44,17 +44,17 @@ $(document).ready(function() {
    }
 
    $(".result-block").show();
-   if (java+csharp+css > ruby+php && java+csharp+css > 6) {
+   if (java+csharp+css > ruby+php && java+csharp+css > 7) {
      $(".result").hide();
      $("#java-path").show();
      $("#csharp-path").show();
      $("#css-path").show();
-   } else if (csharp+css+ruby > php+java && csharp+css+ruby > 6) {
+   } else if (csharp+css+ruby > php+java && csharp+css+ruby > 7) {
      $(".result").hide();
      $("#csharp-path").show();
      $("#css-path").show();
      $("#ruby-path").show();
-   } else if (css+ruby+php > java+csharp && css+ruby+php > 6) {
+   } else if (css+ruby+php > java+csharp && css+ruby+php > 7) {
      $(".result").hide();
      $("#css-path").show();
      $("#ruby-path").show();
