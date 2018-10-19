@@ -8,7 +8,7 @@
 
 _{This is a website where you can fill out a survey and, based on your answers, it will suggest your top 3 pathway choices for Epicodus. }_
 
-{link to github: https://github.com/jcjo/Track_Suggester }
+link to github: https://github.com/jcjo/Track_Suggester
 
 ## Setup/Installation Requirements
 
@@ -17,7 +17,6 @@ _{This is a website where you can fill out a survey and, based on your answers, 
 * _Open index.html_
 * _Complete survey and see your top three choices.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
