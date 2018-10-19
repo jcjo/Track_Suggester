@@ -44,27 +44,27 @@ $(document).ready(function() {
    }
 
    $(".result-block").show();
-   if (java + csharp + css > ruby + php) {
+   if (java+csharp+css > ruby+php && java+csharp+css > 6) {
      $(".result").hide();
      $("#java-path").show();
      $("#csharp-path").show();
      $("#css-path").show();
-   } else if (csharp + css + ruby > php + java) {
+   } else if (csharp+css+ruby > php+java && csharp+css+ruby > 6) {
      $(".result").hide();
      $("#csharp-path").show();
      $("#css-path").show();
      $("#ruby-path").show();
-   } else if (css + ruby + php > java + csharp) {
+   } else if (css+ruby+php > java+csharp && css+ruby+php > 6) {
      $(".result").hide();
      $("#css-path").show();
      $("#ruby-path").show();
      $("#php-path").show();
-   } else if (ruby + php + java > csharp + css) {
+   } else if (ruby+php+java > csharp+css && ruby+php+java > 6) {
      $(".result").hide();
      $("#ruby-path").show();
      $("#php-path").show();
      $("#java-path").show();
-   } else if (php + java + csharp > css + ruby) {
+   } else if (php+java+csharp > css+ruby && php+java+csharp > 6) {
      $(".result").hide();
      $("#php-path").show();
      $("#java-path").show();

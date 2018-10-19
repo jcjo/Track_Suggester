@@ -9,3 +9,19 @@
 .result-block {
   display: none;
 }
+
+#ruby-path {
+  color: red;
+}
+#php-path {
+  color: green;
+}
+#java-path {
+  color: blue;
+}
+#css-path {
+  color: brown;
+}
+#csharp-path {
+  color: orange;
+}
